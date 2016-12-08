@@ -4,7 +4,7 @@
 ----------------------------------------------------
  ****/
 
-@media (max-width:499px){
+@media (max-width:959px){
     #navOption{
         border:#ebebec 4px solid; 
         border-radius:12px;
@@ -19,6 +19,15 @@
         margin: 0px;
     
     }
+
+    #titleResume{
+        font-size: 16px;
+        text-align: left;
+    }
+
+     #slideshow {
+         display:none;
+     }
     
     a#critic{
         color: #55b7c8;
@@ -160,30 +169,6 @@
 
 }
 
-
-
-/***------------------------------------------------
------------------CSS MEDIUM SCREEN------------------
-----------------------------------------------------
- ****/
-
-
-@media (min-width:500px){
-
-    body{
-        font-family: 'Oxygen', serif;
-        background-image:url(../ressources/main.jpg);
-        font-size: 11px;
-        max-width : auto;   
-        margin-left: auto;
-        margin-right: auto;
-        text-align: justify;
-        -moz-text-align-last: center;
-        text-align-last: center;
-    }
-}
-
-
 /***------------------------------------------------
 -----------------CSS FULL SCREEN------------------
 ----------------------------------------------------
@@ -244,7 +229,7 @@
 
     #slideshow .slider {
         /* ... avec la propriété animation */
-        animation: slidy 5s infinite;
+        animation: slidy 15s infinite;
     }
 
     @keyframes slidy{
