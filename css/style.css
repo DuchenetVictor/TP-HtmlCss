@@ -1,28 +1,32 @@
 
+
 div#p{
     text-align: justify; 
 }
 
-div#slider{
+
+
+#slider{
     width: 100%;
-    max-width: 960px;
+    max-width: 952px;
     overflow: hidden;
+    border-radius: 15px;
+    border: #ebebec 4px solid; 
 }
-    div#slider figure {
+    #slider figure {
         position: relative;
-        width: 500%;
+        width: 400%;
         margin: 0;
         padding: 0;
         font-size: 0;
         text-align: left;
-        animation: 30s slidy infinite;
+        animation: 15s slidy infinite;
     }
-        div#slider figure img {
-            width: 20%;
+        #slider figure img {
+            width: 25% ;
             height: auto;
             float: left;
-            border-radius: 15px;
-        }
+        }     
 
 @keyframes slidy{
     0% {left: 0%;}
@@ -31,19 +35,27 @@ div#slider{
     45% {left: -100%;}
     50% {left: -200%;}
     70% {left: -200%;}
-    75% {left: -300%;}
-    95% {left: -300%;}
-    100% {left: -400%;}
-    
+    100% {left:-200%;}
 }
 .flex-item {
+    justify-content: space-between;
     display:flex;
     align-items: center;
+    margin-top:40px
 }
+
+.flex-item2 {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-top:60px
+}
+
 
 body{
 
     font-family: 'Oxygen', serif;
+    background-image:url(../ressources/main.jpg);
     font-size: 14px;
     max-width : auto;   
     margin-left: auto;
@@ -51,11 +63,15 @@ body{
 }
 
 #page{
- margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  background-image:url(../ressources/main.jpg);
-  align-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    width: 960px;
+    align-content: center;
+
 }
 #search{
    float:right; 
@@ -68,8 +84,11 @@ body{
 }
 #searchInput{
    height: 22px;
+
    border:none;     
+
 }
+
 .searchBtn {
     display: block;
     background:url(../ressources/search-button.png) no-repeat;
@@ -91,7 +110,7 @@ body{
 .img-border {border:#ebebec 4px solid; border-radius:12px}
 
 
-.button {
+.Morebutton {
     display: block;
     width: 60px;
     height: 15px;
@@ -100,7 +119,31 @@ body{
     text-align: center;
     border-radius: 5px;
     color: white;
+    text-decoration:none;
 }
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    min-height: 74px;
+    margin-top: 50px;
+    padding-top: 15px;
+
+}
+    footer p{              
+        text-align: center;
+        color: white;
+    }
+
+.ptype{
+    width:270px;
+}
+
+.ptype2{
+    width:450px;
+}
+
 #navBar{
     box-shadow:0 1px 1px #fff;
    
@@ -119,15 +162,11 @@ body{
     padding: 0px;
     padding-top: 25px;
     margin: 0px;
-    
+  
+}
 
-    
-}
-.socialnav{
-    float: left
-}
-ul li {
-   
+ ul li {
+   float: left;
 }
 
 li a {
@@ -135,12 +174,23 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: white 1px solid;
-   
     
+   
+}
+li a:hover{
+    background-color: black;
 }
 
 .linavbar
 {
+  border-right: white 1px solid;
     float: left;
+}
+.socialnav{
+    float: left;
+
+    
+}
+.socialnav:hover{
+    background-color: black;
 }
