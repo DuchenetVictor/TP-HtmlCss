@@ -1,7 +1,13 @@
+#conteneur
+{
+    flex-direction: row
+}
+
 body{
     margin-left: auto;
     margin-right: auto;
 }
+
 #page{
     margin-left: auto;
     margin-right: auto;
