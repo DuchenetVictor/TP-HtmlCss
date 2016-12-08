@@ -1,0 +1,12 @@
+body{
+    max-width : auto;   
+    margin-left: auto;
+    margin-right: auto;
+}
+#page{
+    margin-left: auto;
+    margin-right: auto;
+  width: 960px;
+  background-color: #FAFAFA;
+  align-content: center;
+}
