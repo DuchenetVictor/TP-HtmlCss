@@ -1,6 +1,6 @@
 #conteneur
 {
-    flex-direction: row
+    flex-direction: row;
 }
 
 body{
@@ -16,3 +16,5 @@ body{
   background-color: #FAFAFA;
   align-content: center;
 }
+
+.img-border {border:#ebebec 4px solid; border-radius:12px}
