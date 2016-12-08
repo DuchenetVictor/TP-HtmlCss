@@ -59,7 +59,35 @@ body{
   align-content: center;
 }
 #search{
-    float: right;
-    margin-top: 50px;
+   float:right; 
+   margin:50px 30px ; 
+   border:#d9d9db 1px solid; 
+   background:white; 
+   border-radius:5px;
+   height: 25px;
+   
 }
-.img-border {border:#ebebec 4px solid; border-radius:12px}
+#searchInput{
+   height: 22px;
+   border:none; 
+ 
+  
+    
+}
+.searchBtn {
+    display: block;
+    background:url(../ressources/search-button.png) no-repeat;
+    width:26px;
+    height: 50px;
+    float: right;
+   
+ }
+ 
+.searchBtn:hover {
+    background:url(../ressources/search-button.png) right 0 no-repeat;
+     
+ }
+    
+.img-border {
+    border:#ebebec 4px solid; border-radius:12px
+    }
