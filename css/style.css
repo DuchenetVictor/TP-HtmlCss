@@ -1,4 +1,7 @@
 
+a{
+    text-decoration: none
+}
 div{
     max-width: 960px;
 }
@@ -40,13 +43,18 @@ div#slider{
     100% {left: -400%;}
     
 }
-
-#conteneur
-{
-    flex-direction: row;
+.flex-item {
+    display:flex;
+    align-items: center;
 }
 
 body{
+<<<<<<< HEAD
+=======
+    font-family: 'Oxygen', serif;
+    font-size: 14px;
+    max-width : auto;   
+>>>>>>> bbb939d7dc4440402f5d0acaddefe2fee213aa24
     margin-left: auto;
     margin-right: auto;
 }
@@ -91,3 +99,16 @@ body{
 .img-border {
     border:#ebebec 4px solid; border-radius:12px
     }
+.img-border {border:#ebebec 4px solid; border-radius:12px}
+
+
+.button {
+    display: block;
+    width: 60px;
+    height: 15px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
