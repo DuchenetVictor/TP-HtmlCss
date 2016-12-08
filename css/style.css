@@ -48,6 +48,7 @@ div#slider{
     align-items: center;
 }
 
+
 body{
     font-family: 'Oxygen', serif;
     font-size: 14px;
@@ -99,7 +100,7 @@ body{
 .img-border {border:#ebebec 4px solid; border-radius:12px}
 
 
-.button {
+.Morebutton {
     display: block;
     width: 60px;
     height: 15px;
