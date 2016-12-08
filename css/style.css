@@ -72,9 +72,7 @@ body{
 #searchInput{
    height: 22px;
    border:none; 
- 
-  
-    
+       
 }
 .searchBtn {
     display: block;
@@ -107,3 +105,16 @@ body{
     color: white;
     text-decoration:none;
 }
+
+footer{
+    background-color: black;
+    width: 100%;
+    min-height: 74px;
+    margin-top: 50px;
+    padding-top: 15px;
+
+}
+    footer p{              
+        text-align: center;
+        color: white;
+    }
