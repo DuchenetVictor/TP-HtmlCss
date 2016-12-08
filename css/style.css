@@ -1,29 +1,93 @@
 @media (max-width:499px){
 
-    body{
+p{
+    text-align: justify; 
+}
+
+img{
+    border-radius: 15px;
+}
+
+#slider{
+    display:none;
+}
+    #slider figure {
+        display:none;
+    }
+        #slider figure img {
+            display:none;
+        }     
+
+.flex-item {
+    justify-content: space-between;
+    display:flex;
+    align-items: flex-start;
+    margin-top:20px;
+    flex-direction: column;
+    
+}
+
+.flex-item2 {
+    justify-content: space-between;
+    display:flex;
+    align-items: flex-start;
+    margin-top:4s0px;
+    flex-direction: column;;
+}
+
+
+body{
     font-family: 'Oxygen', serif;
     background-image:url(../ressources/main.jpg);
     font-size: 11px;
-    max-width : auto;   
+}
+
+
+#page{
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
-    -moz-text-align-last: center;
-    text-align-last: center;
+    width: 960px;
+    align-content: center;
 }
-    #slider{
-        display:none;
-    }
-     #slider figure {
-        display:none;
-     }
-     #slider figure img{
-         display:none;
-     }
 
-     .Morebutton {
-    width: 15px;
-    height: 5px;
+#search{
+   float:right; 
+   margin:50px 30px ; 
+   border:#d9d9db 1px solid; 
+   background:white; 
+   border-radius:5px;
+   height: 25px;
+   
+}
+#searchInput{
+   height: 22px;
+   border:none; 
+}
+
+.searchBtn {
+    display: block;
+    background:url(../ressources/search-button.png) no-repeat;
+    width:26px;
+    height: 50px;
+    float: right;
+   
+ }
+ 
+.searchBtn:hover {
+    background:url(../ressources/search-button.png) right 0 no-repeat;
+     
+ }
+    
+.img-border {
+    border:#ebebec 4px solid; border-radius:12px
+    }
+.img-border {border:#ebebec 4px solid; border-radius:12px}
+
+
+.Morebutton {
+    display: block;
+    width: 60px;
+    height: 15px;
     background: #4E9CAF;
     padding: 10px;
     text-align: center;
@@ -32,15 +96,14 @@
     text-decoration:none;
 }
 
-.ptype{
-    width:450px;
-}
+footer{
+    background-color: black;
+    width: 100%;
+    min-height: 74px;
+    margin-top: 50px;
+    padding-top: 15px;
 
-.ptype2{
-    width:500px;
 }
-}
-
 
 .customa {
     color: white;
@@ -52,6 +115,20 @@
         color: white;
         
     }
+
+.ptype{
+    width:270px;
+}
+
+.ptype2{
+    width:450px;
+}
+}
+
+
+
+
+
 @media (min-width:500px){
 
     body{
@@ -66,6 +143,12 @@
     text-align-last: center;
 }
 }
+
+
+
+
+
+
 
 
 @media (min-width:960px){
