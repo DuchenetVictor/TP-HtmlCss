@@ -40,8 +40,17 @@ div#slider{
     
 }
 .flex-item {
+    justify-content: space-between;
     display:flex;
     align-items: center;
+    margin-top:40px
+}
+
+.flex-item2 {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-top:60px
 }
 
 
@@ -56,9 +65,9 @@ body{
 #page{
     margin-left: auto;
     margin-right: auto;
-  width: 960px;
-  background-image:url(../ressources/main.jpg);
-  align-content: center;
+    width: 960px;
+    background-image:url(../ressources/main.jpg);
+    align-content: center;
 }
 #search{
    float:right; 
@@ -72,10 +81,8 @@ body{
 #searchInput{
    height: 22px;
    border:none; 
- 
-  
-    
 }
+
 .searchBtn {
     display: block;
     background:url(../ressources/search-button.png) no-repeat;
@@ -106,4 +113,12 @@ body{
     border-radius: 5px;
     color: white;
     text-decoration:none;
+}
+
+.ptype{
+    width:270px;
+}
+
+.ptype2{
+    width:450px;
 }
