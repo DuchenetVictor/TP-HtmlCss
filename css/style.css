@@ -1,7 +1,24 @@
 
+/***------------------------------------------------
+-----------------CSS SMALL SCREEN------------------
+----------------------------------------------------
+ ****/
 
 @media (max-width:499px){
-
+    #navOption{
+        border:#ebebec 4px solid; 
+        border-radius:12px;
+        width: 350px;
+        list-style-type: none; 
+        background-image: url(../ressources/nav.jpg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
     
     a#critic{
         color: #55b7c8;
@@ -11,15 +28,22 @@
         border-radius: 15px;
     }
 
-    #slider{
+    li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    }
+    li span{
         display:none;
     }
-        #slider figure {
-            display:none;
-        }
-            #slider figure img {
-                display:none;
-            }     
+
+    p{
+        text-align: justify; 
+    }
+
+    img{
+        border-radius: 15px;
+    }
 
     .flex-item {
         justify-content: space-between;
@@ -38,6 +62,12 @@
         flex-direction: column;;
     }
 
+    body{
+        font-family: 'Oxygen', serif;
+        background-image:url(../ressources/main.jpg);
+        font-size: 11px;
+    }
+
 
     body{
         font-family: 'Oxygen', serif;
@@ -49,13 +79,13 @@
     #page{
         margin-left: auto;
         margin-right: auto;
-        width: 960px;
+        width: 380px;
         align-content: center;
     }
 
     #search{
-    float:right; 
-    margin:50px 30px ; 
+    margin:5px 10px ; 
+    width:200px;
     border:#d9d9db 1px solid; 
     background:white; 
     border-radius:5px;
@@ -63,17 +93,16 @@
     
     }
     #searchInput{
-    height: 22px;
+    width:150px;
+    height: 20px;
     border:none; 
     }
 
     .searchBtn {
-        display: block;
         background:url(../ressources/search-button.png) no-repeat;
-        width:26px;
-        height: 50px;
+        width:20px;
+        height: 30px;
         float: right;
-    
     }
     
     .searchBtn:hover {
@@ -108,28 +137,35 @@
 
     }
 
+
     .customa {
         color: white;
         text-decoration:none;
     }
-
-    footer p{ 
-        padding:0;         
-        text-align: center;
-        color: white;
-    }
+        footer p{ 
+            width:400px;
+            padding:0;         
+            text-align: center;
+            color: white;
+            
+        }
 
     .ptype{
-        width:270px;
+        width:340px;
     }
 
     .ptype2{
-        width:450px;
+        width:340px;
     }
+
 }
 
 
 
+/***------------------------------------------------
+-----------------CSS MEDIUM SCREEN------------------
+----------------------------------------------------
+ ****/
 
 
 @media (min-width:500px){
@@ -148,14 +184,20 @@
 }
 
 
+/***------------------------------------------------
+-----------------CSS FULL SCREEN------------------
+----------------------------------------------------
+ ****/
+
 
 @media (min-width:960px){
 
 
-#titleResume{
-    font-size: 25px;
-    text-align: left;
-}
+    #titleResume{
+        font-size: 25px;
+        text-align: left;
+    }
+
     #slideshow {
         position: relative;
         width: 100%;
@@ -227,7 +269,6 @@
     }
 
     body{
-
         font-family: 'Oxygen', serif;
         background-image:url(../ressources/main.jpg);
         font-size: 14px;
@@ -237,6 +278,19 @@
         text-align: justify;
     }
 
+    #search{
+        float:right; 
+        margin:50px 30px ; 
+        border:#d9d9db 1px solid; 
+        background:white; 
+        border-radius:5px;
+        height: 25px;
+    }
+    
+    #searchInput{
+        height: 22px;
+        border:none; 
+    }
 
     #page{
         margin-left: auto;
@@ -306,15 +360,15 @@
                 color: white;
         }
 
+    .ptype{
+        width:300px;;
+    }
+
     .customa {
         color: white;
         text-decoration:none;
     }
-        
 
-    .ptype{
-        width:270px;
-    }
 
     .ptype2{
         width:450px;
