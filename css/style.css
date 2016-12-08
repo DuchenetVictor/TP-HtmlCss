@@ -40,10 +40,9 @@ div#slider{
     100% {left: -400%;}
     
 }
-
-#conteneur
-{
-    flex-direction: row;
+.flex-item {
+    display:flex;
+    align-items: center;
 }
 
 body{
@@ -60,3 +59,15 @@ body{
   align-content: center;
 }
 .img-border {border:#ebebec 4px solid; border-radius:12px}
+
+
+.button {
+    display: block;
+    width: 60px;
+    height: 15px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
