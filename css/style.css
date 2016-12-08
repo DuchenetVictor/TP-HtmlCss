@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 a{
     text-decoration: none
+=======
+div{
+    max-width: 960px;
+>>>>>>> c59ce7177e4b3fe32f2a48a1e417c1b21b0a855a
 }
 
 
@@ -110,4 +115,5 @@ body{
     text-align: center;
     border-radius: 5px;
     color: white;
+    text-decoration:none;
 }
