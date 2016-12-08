@@ -1,3 +1,5 @@
+
+
 @media (max-width:499px){
 
 p{
@@ -153,12 +155,11 @@ footer{
 
 @media (min-width:960px){
 p{
+
     text-align: justify; 
 }
 
-img{
-    border-radius: 15px;
-}
+
 
 #slider{
     width: 100%;
@@ -207,6 +208,7 @@ img{
 
 
 body{
+
     font-family: 'Oxygen', serif;
     background-image:url(../ressources/main.jpg);
     font-size: 14px;
@@ -217,10 +219,14 @@ body{
 
 
 #page{
+
     margin-left: auto;
     margin-right: auto;
+
     width: 960px;
     align-content: center;
+
+
 }
 
 #search{
@@ -234,7 +240,9 @@ body{
 }
 #searchInput{
    height: 22px;
+
    border:none; 
+
 }
 
 .searchBtn {
@@ -252,7 +260,8 @@ body{
  }
     
 .img-border {
-    border:#ebebec 4px solid; border-radius:12px
+    border:#ebebec 4px solid; 
+    border-radius:12px
     }
 .img-border {border:#ebebec 4px solid; border-radius:12px}
 
@@ -268,6 +277,7 @@ body{
     color: white;
     text-decoration:none;
 }
+
 
 footer{
     background-color: black;
@@ -297,4 +307,57 @@ footer{
     width:450px;
 }
 
+
+#navBar{
+    box-shadow:0 1px 1px #fff;
+   
 }
+
+#navOption{
+    border:#ebebec 4px solid; 
+    border-radius:12px;
+    width: 952px;
+    list-style-type: none; 
+    overflow: hidden;
+    background-image: url(../ressources/nav.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0px;
+    padding-top: 25px;
+    margin: 0px;
+  
+}
+
+ ul li {
+   float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+   
+}
+li a:hover{
+    background-color: black;
+}
+
+.linavbar
+{
+  border-right: white 1px solid;
+    float: left;
+}
+.socialnav{
+    float: left;
+
+    
+}
+.socialnav:hover{
+    background-color: black;
+}
+
+}
+
