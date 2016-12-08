@@ -1,41 +1,85 @@
 p{
     text-align: justify; 
 }
+a#critic{
+    color: #55b7c8;
+}
 
 img{
     border-radius: 15px;
 }
 
-#slider{
-    width: 100%;
-    max-width: 952px;
-    overflow: hidden;
-    border-radius: 15px;
+/*test */
+#slideshow {
+	position: relative;
+	width: 100%;
+border-radius: 15px;
     border: #ebebec 4px solid; 
+	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
 }
-    #slider figure {
-        position: relative;
-        width: 400%;
-        margin: 0;
-        padding: 0;
-        font-size: 0;
-        text-align: left;
-        animation: 15s slidy infinite;
-    }
-        #slider figure img {
-            width: 25% ;
-            height: auto;
-            float: left;
-        }     
+
+#slideshow .container {
+	position:relative;
+	width: 100%;
+	height: 400px;
+   border-radius: 15px;
+    
+	overflow: hidden;
+}
+	
+/* le conteneur des slides */
+#slideshow .slider {
+	position: absolute;
+	left:0; top:0;
+	width: 400%;
+	height: 400px;
+    
+}
+
+/* annulation des marges sur figure */
+#slideshow figure {
+	position:relative;
+	display:inline-block;
+	padding:0; margin:0;
+}
+/* petit effet de vignette sur les images */
+#slideshow figure:after {
+	position: absolute;
+	display:block;
+	content: " ";
+	top:0; left:0;
+	width: 100%; height: 100%;
+	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+}
+
+/* styles de nos légendes */
+#slideshow figcaption {
+	position:absolute;
+	left:0; right:0; bottom: 5px;
+	padding: 20px;
+	margin:0;
+	border-top: 1px solid rgb(225,225,225);
+	text-align:right;
+	font-family: Condiment, Times, serif;
+    font-size: 18px;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	color: #555;
+	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+}
+
+#slideshow .slider {
+	/* ... avec la propriété animation */
+	animation: slidy 5s infinite;
+}
+/*end*/
+
 
 @keyframes slidy{
-    0% {left: 0%;}
-    20% {left: 0%;}
-    25% {left: -100%;}
-    45% {left: -100%;}
-    50% {left: -200%;}
-    70% {left: -200%;}
-    100% {left:-200%;}
+    0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%        { left: -200% }
+   
 }
 .flex-item {
     justify-content: space-between;
@@ -51,7 +95,6 @@ img{
     margin-top:60px
 }
 
-
 body{
     font-family: 'Oxygen', serif;
     background-image:url(../ressources/main.jpg);
@@ -64,16 +107,10 @@ body{
 #page{
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-
-  width: 960px;
-  background-image:url(../ressources/main.jpg);
-  align-content: center;
-
-=======
     width: 960px;
+    background-image:url(../ressources/main.jpg);
     align-content: center;
->>>>>>> 388859654c510510137c52e45039485f06153867
+
 }
 #search{
    float:right; 
@@ -87,10 +124,6 @@ body{
 #searchInput{
    height: 22px;
    border:none; 
-<<<<<<< HEAD
-       
-=======
->>>>>>> 388859654c510510137c52e45039485f06153867
 }
 
 .searchBtn {
@@ -112,7 +145,6 @@ body{
     }
 .img-border {border:#ebebec 4px solid; border-radius:12px}
 
-
 .Morebutton {
     display: block;
     width: 60px;
@@ -125,7 +157,6 @@ body{
     text-decoration:none;
 }
 
-<<<<<<< HEAD
 footer{
     background-color: black;
     width: 100%;
@@ -138,7 +169,7 @@ footer{
         text-align: center;
         color: white;
     }
-=======
+
 .ptype{
     width:270px;
 }
@@ -146,4 +177,3 @@ footer{
 .ptype2{
     width:450px;
 }
->>>>>>> 388859654c510510137c52e45039485f06153867
