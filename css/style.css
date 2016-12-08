@@ -1,4 +1,7 @@
 
+a{
+    text-decoration: none
+}
 div{
     max-width: 960px;
 }
@@ -46,6 +49,8 @@ div#slider{
 }
 
 body{
+    font-family: 'Oxygen', serif;
+    font-size: 14px;
     max-width : auto;   
     margin-left: auto;
     margin-right: auto;
